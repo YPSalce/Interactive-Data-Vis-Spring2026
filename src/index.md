@@ -145,14 +145,17 @@ The checks in the completed column show that I completed everything for the week
   </tr>
 </table>
 
-```js
-for (const button of document.querySelectorAll(".mark-done-btn")) {
-  button.addEventListener("click", () => {
-    const status = button.nextElementSibling;
-    status.textContent = status.textContent.trim() === "❌" ? "✔️" : "❌";
+<script>
+(() => {
+  const buttons = document.querySelectorAll(".mark-done-btn");
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const status = button.nextElementSibling;
+      status.textContent = status.textContent.trim() === "❌" ? "✔️" : "❌";
+    });
   });
-}
-```
+})();
+</script>
 
   
 
