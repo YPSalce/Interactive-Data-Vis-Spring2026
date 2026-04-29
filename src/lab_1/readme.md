@@ -14,7 +14,6 @@ The assignment requirements are as follows:
   2. your [deployed link](#4-set-up-your-github-pages-for-your-deployment), which will look something like `https://[USERNAME].github.io/Interactive-Data-Vis-Spring2026/[LAB FOLDER]/`.
 
 ---
-
 # Data Context
 
 The local farm has some new observational data from their plots. They need your help to determine important trends about the bees and the flowers. They are hoping to know more about the three bee species observed, the flowers, and the ideal conditions. Specifically, your dashboard should answer:
