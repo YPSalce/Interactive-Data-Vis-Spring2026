@@ -162,7 +162,6 @@ The checks in the completed column show that I completed everything for the week
     });
   });
 })();
-</script>
 
-  
+</script>
 
