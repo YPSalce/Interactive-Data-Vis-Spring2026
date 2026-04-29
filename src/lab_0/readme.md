@@ -265,6 +265,7 @@ $ git merge upstream/main
 
 **macOS/Linux Terminal**
 
+
 - `ls`: List files and folders (ls -la for detailed view)
 - `cd [folder]`: Change directory
 - `cd ..`: Go up one directory
